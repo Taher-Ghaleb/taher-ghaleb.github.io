@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications | Taher Ghaleb</title>
+  <meta name="description" content="Explore Taher Ghaleb's research publications and patents. Search papers and browse by topic, year, and venue.">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/publications.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light standalone-navigation" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><span class="brand-name">Taher Ghaleb</span><span class="brand-credential">Ph.D.</span></a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="index.html#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="index.html#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="index.html#research-section" class="nav-link"><span>Research</span></a></li>
+					<li class="nav-item"><a href="index.html#team-section" class="nav-link"><span>Team</span></a></li>
+					<li class="nav-item"><a href="index.html#publications-section" class="nav-link"><span>Publications</span></a></li>
+					<li class="nav-item"><a href="index.html#teaching-section" class="nav-link"><span>Teaching</span></a></li>
+					<li class="nav-item"><a href="index.html#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  <main class="publications-page">
+    <div class="container">
+      <header class="heading-section text-center">
+        <span class="subheading">Research</span>
+        <h1>Publications</h1>
+        <p class="publications-intro">Explore my papers by topic, year, or venue.<br>You can also find my work on <a href="https://scholar.google.ca/citations?user=5EBfu-0AAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+      </header>
+      <div class="publication-controls" role="search" aria-label="Search and filter publications">
+        <label for="publication-search">Search publications</label>
+        <input type="search" id="publication-search" placeholder="Search by title, author, or keyword…" aria-controls="all-publications publication-patents">
+        <div class="publication-filter-grid">
+          <div><label for="publication-topic">Topic</label><select id="publication-topic"><option value="">All topics</option></select></div>
+          <div><label for="publication-year">Year</label><select id="publication-year"><option value="">All years</option></select></div>
+          <div><label for="publication-venue">Venue</label><select id="publication-venue"><option value="">All venues</option></select></div>
+        </div>
+        <div class="publication-control-footer">
+          <span id="publication-status" role="status" aria-live="polite">Loading publications…</span>
+          <button class="publication-reset" id="publication-reset" type="button">Clear filters</button>
+        </div>
+      </div>
+      <nav class="publication-pagination" id="publication-pagination-top" aria-label="Publication pages above results">
+        <button id="publication-previous-top" data-publication-previous type="button" disabled>Previous</button>
+        <span data-publication-page></span>
+        <button id="publication-next-top" data-publication-next type="button" disabled>Next</button>
+      </nav>
+      <div id="all-publications" tabindex="-1" aria-label="Publication results"></div>
+      <nav class="publication-pagination" aria-label="Publication pages">
+        <button id="publication-previous" data-publication-previous type="button" disabled>Previous</button>
+        <span id="publication-page" data-publication-page role="status" aria-live="polite"></span>
+        <button id="publication-next" data-publication-next type="button" disabled>Next</button>
+      </nav>
+      <details class="publication-patents" id="patents-section">
+        <summary id="patent-summary">Granted US patents</summary>
+        <div id="publication-patents"></div>
+      </details>
+      <noscript><p>Enable JavaScript to search publications, or <a href="papers/taher-ghaleb-publications.bib">download the publication list (BibTeX)</a>.</p></noscript>
+    </div>
+  </main>
+  <footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col-md-2">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="index.html#home-section"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
+							<li><a href="index.html#about-section"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
+							<li><a href="index.html#research-section"><span class="fa fa-chevron-right mr-2"></span>Research</a></li>
+							<li><a href="index.html#team-section"><span class="fa fa-chevron-right mr-2"></span>Team</a></li>
+							<li><a href="index.html#publications-section"><span class="fa fa-chevron-right mr-2"></span>Publications</a></li>
+							<li><a href="index.html#teaching-section"><span class="fa fa-chevron-right mr-2"></span>Teaching</a></li>
+							<li><a href="index.html#contact-section"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Research Interests</h2>
+						<ul class="list-unstyled">
+							<li><a href="index.html#research-section"><span class="fa fa-chevron-right mr-2"></span>Sustainable and Green Software and AI</a></li>
+							<li><a href="index.html#research-section"><span class="fa fa-chevron-right mr-2"></span>CI/CD – DevOps</a></li>
+							<li><a href="index.html#research-section"><span class="fa fa-chevron-right mr-2"></span>Human and Societal Impact of AI</a></li>
+							<li><a href="index.html#research-section"><span class="fa fa-chevron-right mr-2"></span>AI/LLMs for Software Engineering</a></li>
+							<li><a href="index.html#research-section"><span class="fa fa-chevron-right mr-2"></span>Responsible and Trustworthy AI</a></li>
+							<li><a href="index.html#research-section"><span class="fa fa-chevron-right mr-2"></span>Data-Driven Software Analytics</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Reach out</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon fa fa-map marker"></span><span class="text">1600 West Bank Dr, Peterborough, ON K9L 0G2</span></li>
+								<li><a href="tel:+17057481011;ext=6244"><span class="icon fa fa-phone"></span><span class="text">+1 (705) 748-1011 ex. 6244</span></a></li>
+								<li><a href="mailto:taherghaleb@trentu.ca"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">taherghaleb@trentu.ca</span></a></li>
+							</ul>
+						</div>
+						<ul class="ftco-footer-social list-unstyled mt-2">
+							<li><a aria-label="LinkedIn" target="_blank" href="https://www.linkedin.com/in/taher-ghaleb" rel="noopener"><span class="fa fa-linkedin"></span></a></li>
+							<li><a aria-label="Google Scholar" target="_blank" href="https://scholar.google.ca/citations?user=5EBfu-0AAAAJ" rel="noopener"><span class="ai ai-google-scholar"></span></a></li>
+							<li><a aria-label="ResearchGate" target="_blank" href="https://www.researchgate.net/profile/Taher-Ghaleb" rel="noopener"><span class="ai ai-researchgate"></span></a></li>
+							<li><a aria-label="ORCID" target="_blank" href="https://orcid.org/0000-0001-9336-7298" rel="noopener"><span class="ai ai-orcid"></span></a></li>
+							<li><a aria-label="GitHub" target="_blank" href="https://github.com/taher-ghaleb" rel="noopener"><span class="fa fa-github"></span></a></li>
+							<li><a aria-label="X (Twitter)" target="_blank" href="https://x.com/TaherGhaleb" rel="noopener"><span class="fa fa-twitter"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved | <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+  <script src="js/publications.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+</body>
+</html>

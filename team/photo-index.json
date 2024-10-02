@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{
+  "files": [
+    {%- assign first_photo = true -%}
+    {%- for file in site.static_files -%}
+      {%- assign folder = file.path | split: '/' -%}
+      {%- if folder[1] == 'team' and folder[2] == 'photos' and folder.size == 4 -%}
+        {%- unless first_photo -%},{%- endunless -%}
+        {{- file.name | jsonify -}}
+        {%- assign first_photo = false -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}

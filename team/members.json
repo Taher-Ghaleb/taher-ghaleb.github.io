@@ -1,0 +1,282 @@
+{
+  "members": [
+    {
+      "id": "dung-pham",
+      "name": "Dung Pham",
+      "role": "MSc in CS",
+      "topics": [
+        "CI/CD",
+        "AI4SE",
+        "Agentic SE"
+      ],
+      "startDate": "2026-09",
+      "endDate": null,
+      "status": "current",
+      "photo": "placeholder-male.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-male.svg"
+    },
+    {
+      "id": "abdul-wahab-imran",
+      "name": "Abdul Wahab Imran",
+      "role": "MSc in CS",
+      "topics": [
+        "CI/CD",
+        "Security"
+      ],
+      "startDate": "2026-09",
+      "endDate": null,
+      "status": "current",
+      "photo": "placeholder-male.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-male.svg"
+    },
+    {
+      "id": "bernard-barnieh",
+      "name": "Bernard Barnieh",
+      "role": "MSc in AMOD",
+      "topics": [
+        "SE4AI",
+        "Agentic SE"
+      ],
+      "startDate": "2026-09",
+      "endDate": null,
+      "status": "current",
+      "photo": "placeholder-male.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-male.svg"
+    },
+    {
+      "id": "bhavyalatha-gorjala",
+      "name": "Bhavyalatha Gorjala",
+      "role": "MSc in AMOD",
+      "topics": [
+        "SE for Data Engineering",
+        "CI/CD"
+      ],
+      "startDate": "2026-05",
+      "endDate": null,
+      "status": "current",
+      "photo": "placeholder-female.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-female.svg"
+    },
+    {
+      "id": "bushra-anjum",
+      "name": "Bushra Anjum Khan",
+      "role": "MSc in AMOD",
+      "topics": [
+        "Agentic SE",
+        "Human–AI Interaction"
+      ],
+      "startDate": "2026-05",
+      "endDate": null,
+      "status": "current",
+      "photo": "Bushra-Anjum-Khan.png",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-female.svg"
+    },
+    {
+      "id": "maliha-tabassum",
+      "name": "Maliha Tabassum",
+      "role": "MSc in AMOD",
+      "topics": [
+        "Agentic SE",
+        "Human–AI Interaction"
+      ],
+      "startDate": "2026-05",
+      "endDate": null,
+      "status": "current",
+      "photo": "placeholder-female.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-female.svg"
+    },
+    {
+      "id": "niruthiha-selvanayagam",
+      "name": "Niruthiha Selvanayagam",
+      "role": "PhD in SE",
+      "topics": [
+        "SE4AI",
+        "Agentic SE"
+      ],
+      "startDate": "2025-05",
+      "endDate": null,
+      "status": "current",
+      "photo": "placeholder-female.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "École de technologie supérieure, Montréal",
+        "shortName": "ÉTS Montréal",
+        "accent": "red"
+      },
+      "category": "phd",
+      "placeholderPhoto": "placeholder-female.svg"
+    },
+    {
+      "id": "hadil-ben-amor",
+      "name": "Hadil Ben Amor",
+      "role": "MSc in SE",
+      "topics": [
+        "SE4AI",
+        "Service-oriented Computing"
+      ],
+      "startDate": "2024-05",
+      "endDate": "2026-04",
+      "status": "alumni",
+      "photo": "placeholder-female.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "École de technologie supérieure, Montréal",
+        "shortName": "ÉTS Montréal",
+        "accent": "red"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-female.svg"
+    },
+    {
+      "id": "edward-abrokwah",
+      "name": "Edward Abrokwah",
+      "role": "MSc in AMOD",
+      "topics": [
+        "CI/CD",
+        "AI4SE"
+      ],
+      "startDate": "2025-01",
+      "endDate": "2026-05",
+      "status": "alumni",
+      "photo": "placeholder-male.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-male.svg"
+    },
+    {
+      "id": "md-nazmul-hossain",
+      "name": "Md Nazmul Hossain",
+      "role": "MSc in AMOD",
+      "topics": [
+        "CI/CD",
+        "AI4SE"
+      ],
+      "startDate": "2025-01",
+      "endDate": "2026-05",
+      "status": "alumni",
+      "photo": "placeholder-male.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "masters",
+      "placeholderPhoto": "placeholder-male.svg"
+    },
+    {
+      "id": "omar-mejdi",
+      "name": "Omar Mejdi",
+      "role": "Mitacs Summer Intern",
+      "topics": [
+        "CI/CD"
+      ],
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "status": "alumni",
+      "photo": "placeholder-male.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "undergrad-interns",
+      "placeholderPhoto": "placeholder-male.svg"
+    },
+    {
+      "id": "paul-olteanu",
+      "name": "Paul Olteanu",
+      "role": "NSERC Summer Intern",
+      "topics": [
+        "Systems Programming",
+        "OOP"
+      ],
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "status": "alumni",
+      "photo": "placeholder-male.svg",
+      "photoPosition": "center",
+      "placeholder": false,
+      "university": {
+        "name": "Trent University",
+        "shortName": "Trent",
+        "accent": "green"
+      },
+      "category": "undergrad-interns",
+      "placeholderPhoto": "placeholder-male.svg"
+    }
+  ],
+  "categories": [
+    {
+      "id": "phd",
+      "label": "PhD"
+    },
+    {
+      "id": "masters",
+      "label": "Master’s"
+    },
+    {
+      "id": "undergrad-interns",
+      "label": "Undergrad Interns"
+    }
+  ]
+}
