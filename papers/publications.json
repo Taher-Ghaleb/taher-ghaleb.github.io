@@ -1,0 +1,810 @@
+{
+  "journal": [
+    {
+      "title": "CI/CD Configuration Practices in Open-Source Android Apps: An Empirical Study",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Osamah Abduljalil",
+          "self": false
+        },
+        {
+          "name": "Safwat Hassan",
+          "self": false
+        }
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology (2026)",
+      "year": 2026
+    },
+    {
+      "title": "Security Debt in Practice: Nuanced Insights from Practitioners",
+      "authors": [
+        {
+          "name": "Chaima Boufaied",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Zainab Masood",
+          "self": false
+        }
+      ],
+      "venue": "Empirical Software Engineering (2026)",
+      "year": 2026
+    },
+    {
+      "title": "A Comprehensive Multi-Vocal Empirical Study of ML Cloud Service Misuses",
+      "authors": [
+        {
+          "name": "Hadil Ben Amor",
+          "self": false
+        },
+        {
+          "name": "Manel Abdellatif",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology (2026)",
+      "year": 2026
+    },
+    {
+      "title": "A Comprehensive Catalog of Refactoring Strategies to Handle Test Smells in Java-Based Systems",
+      "authors": [
+        {
+          "name": "Luana Martins",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Heitor Costa",
+          "self": false
+        },
+        {
+          "name": "Ivan Machado",
+          "self": false
+        }
+      ],
+      "venue": "Software Quality Journal (2024)",
+      "year": 2024
+    },
+    {
+      "title": "LTM: Scalable and Black-Box Similarity-Based Test Suite Minimization Based on Language Models",
+      "authors": [
+        {
+          "name": "Rongqi Pan",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Lionel C Briand",
+          "self": false
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering (2024)",
+      "year": 2024
+    },
+    {
+      "title": "Flakify: A Black-Box, Language Model-Based Predictor for Flaky Tests",
+      "authors": [
+        {
+          "name": "Sakina Fatima",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Lionel Briand",
+          "self": false
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering (2023)",
+      "year": 2023
+    },
+    {
+      "title": "Optimise Along the Way: An Industrial Case Study on Web Performance",
+      "authors": [
+        {
+          "name": "Jasper van Riet",
+          "self": false
+        },
+        {
+          "name": "Ivano Malavolta",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "Journal of Systems and Software (2023)",
+      "year": 2023
+    },
+    {
+      "title": "Studying the Interplay Between the Durations and Breakages of Continuous Integration Builds",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Safwat Hassan",
+          "self": false
+        },
+        {
+          "name": "Ying Zou",
+          "self": false
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering (2023)",
+      "year": 2023
+    },
+    {
+      "title": "Investigating Developers’ Perception on Software Testability and Its Effects",
+      "authors": [
+        {
+          "name": "Tushar Sharma",
+          "self": false
+        },
+        {
+          "name": "Stefanos Georgiou",
+          "self": false
+        },
+        {
+          "name": "Maria Kechagia",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Federica Sarro",
+          "self": false
+        }
+      ],
+      "venue": "Empirical Software Engineering (2023)",
+      "year": 2023
+    },
+    {
+      "title": "Test Case Selection and Prioritization Using Machine Learning: A Systematic Literature Review",
+      "authors": [
+        {
+          "name": "Rongqi Pan",
+          "self": false
+        },
+        {
+          "name": "Mojtaba Bagherzadeh",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Lionel Briand",
+          "self": false
+        }
+      ],
+      "venue": "Empirical Software Engineering (2022)",
+      "year": 2022
+    },
+    {
+      "title": "A Fine-Grained Data Set and Analysis of Tangling in Bug Fixing Commits",
+      "authors": [
+        {
+          "name": "Steffen Herbold",
+          "self": false
+        },
+        {
+          "name": "Alexander Trautsch",
+          "self": false
+        },
+        {
+          "name": "Benjamin Ledel",
+          "self": false
+        },
+        {
+          "name": "Alireza Aghamohammadi",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Kuljit Kaur Chahal",
+          "self": false
+        },
+        {
+          "name": "Tim Bossenmaier",
+          "self": false
+        },
+        {
+          "name": "Bhaveet Nagaria",
+          "self": false
+        },
+        {
+          "name": "Philip Makedonski",
+          "self": false
+        },
+        {
+          "name": "Matin Nili Ahmadabadi",
+          "self": false
+        },
+        {
+          "name": "others",
+          "self": false
+        }
+      ],
+      "venue": "Empirical Software Engineering (2022)",
+      "year": 2022
+    },
+    {
+      "title": "Studying the Impact of Noises in Build Breakage Data",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Daniel Alencar da Costa",
+          "self": false
+        },
+        {
+          "name": "Ying Zou",
+          "self": false
+        },
+        {
+          "name": "Ahmed E Hassan",
+          "self": false
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering (2021)",
+      "year": 2021
+    },
+    {
+      "title": "An Extensible Compiler for Implementing Software Design Patterns as Concise Language Constructs",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "International Journal of Software Engineering and Knowledge Engineering (2021)",
+      "year": 2021
+    },
+    {
+      "title": "An Empirical Study of the Long Duration of Continuous Integration Builds",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Daniel Alencar Da Costa",
+          "self": false
+        },
+        {
+          "name": "Ying Zou",
+          "self": false
+        }
+      ],
+      "venue": "Empirical Software Engineering (2019)",
+      "year": 2019
+    },
+    {
+      "title": "Program Comprehension Through Reverse-Engineered Sequence Diagrams: A Systematic Review",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        },
+        {
+          "name": "Khalid Aljasser",
+          "self": false
+        }
+      ],
+      "venue": "Journal of Software: Evolution and Process (2018)",
+      "year": 2018
+    }
+  ],
+  "conference": [
+    {
+      "title": "Self-Admitted Technical Debt in LLM Software: An Empirical Comparison with ML and Non-ML Software",
+      "authors": [
+        {
+          "name": "Niruthiha Selvanayagam",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Manel Abdellatif",
+          "self": false
+        }
+      ],
+      "venue": "SANER 2026",
+      "year": 2026
+    },
+    {
+      "title": "Fingerprinting AI Coding Agents on GitHub",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "MSR 2026",
+      "year": 2026
+    },
+    {
+      "title": "When AI Agents Touch CI/CD Configurations: Frequency and Success",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "MSR 2026",
+      "year": 2026
+    },
+    {
+      "title": "Code Change Characteristics and Description Alignment: A Comparative Study of Agentic Versus Human Pull Requests",
+      "authors": [
+        {
+          "name": "Dung Pham",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "MSR 2026",
+      "year": 2026
+    },
+    {
+      "title": "LogSieve: Task-Aware CI Log Reduction for Sustainable LLM-Based Analysis",
+      "authors": [
+        {
+          "name": "Marcus Emmanuel Barnes",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Safwat Hassan",
+          "self": false
+        }
+      ],
+      "venue": "MSR 2026",
+      "year": 2026
+    },
+    {
+      "title": "The Promise and Reality of Continuous Integration Caching: An Empirical Study of Travis CI Builds",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Daniel Alencar da Costa",
+          "self": false
+        },
+        {
+          "name": "Ying Zou",
+          "self": false
+        }
+      ],
+      "venue": "EASE 2026",
+      "year": 2026
+    },
+    {
+      "title": "Role of CI Adoption in Mobile App Success: An Empirical Study of Open-Source Android Projects",
+      "authors": [
+        {
+          "name": "Xiaoxin Zhou",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Safwat Hassan",
+          "self": false
+        }
+      ],
+      "venue": "MSR 2026",
+      "year": 2026
+    },
+    {
+      "title": "MLmisFinder: A Specification and Detection Approach of Machine Learning Service Misuses",
+      "authors": [
+        {
+          "name": "Hadil Ben Amor",
+          "self": false
+        },
+        {
+          "name": "Niruthiha Selvanayagam",
+          "self": false
+        },
+        {
+          "name": "Manel Abdellatif",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Naouel Moha",
+          "self": false
+        }
+      ],
+      "venue": "SANER 2026",
+      "year": 2026
+    },
+    {
+      "title": "Mapping GitHub Sponsorships: A Longitudinal Observatory for Open-Source Sustainability",
+      "authors": [
+        {
+          "name": "Rylan Hiltz",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "FSE 2026",
+      "year": 2026
+    },
+    {
+      "title": "Android Instrumentation Testing in Continuous Integration: Practices, Patterns, and Performance",
+      "authors": [
+        {
+          "name": "Hamid Parsazadeh",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Safwat Hassan",
+          "self": false
+        }
+      ],
+      "venue": "ICST 2026",
+      "year": 2026
+    },
+    {
+      "title": "A Vision for Context-Aware CI Adoption Decisions",
+      "authors": [
+        {
+          "name": "Osamah H Alaini",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "FSE 2026",
+      "year": 2026
+    },
+    {
+      "title": "From Assistance to Agency: Rethinking Autonomy and Control in CI/CD Pipelines",
+      "authors": [
+        {
+          "name": "Marcus Emmanuel Barnes",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Safwat Hassan",
+          "self": false
+        }
+      ],
+      "venue": "AIware 2026",
+      "year": 2026
+    },
+    {
+      "title": "How Compliant Are GitHub Actions Workflows? A Checklist-Based Study with LLM-Assisted Auditing",
+      "authors": [
+        {
+          "name": "Edward Abrokwah",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "EASE 2026",
+      "year": 2026
+    },
+    {
+      "title": "AI-to-AI Code Reviews of GitHub Pull Requests",
+      "authors": [
+        {
+          "name": "Niruthiha Selvanayagam",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "ESEM 2026",
+      "year": 2026
+    },
+    {
+      "title": "Can LLMs Write CI? A Study on Automatic Generation of GitHub Actions Configurations",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Dulina Rathnayake",
+          "self": false
+        }
+      ],
+      "venue": "ICSME 2025",
+      "year": 2025
+    },
+    {
+      "title": "From First Use to Final Commit: Studying the Evolution of Multi-CI Service Adoption",
+      "authors": [
+        {
+          "name": "Nitika Chopra",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "ICSME 2025",
+      "year": 2025
+    },
+    {
+      "title": "Task-Aware Reduction for Scalable LLM-Database Systems",
+      "authors": [
+        {
+          "name": "Marcus Emmanuel Barnes",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Safwat Hassan",
+          "self": false
+        }
+      ],
+      "venue": "CASCON 2025",
+      "year": 2025
+    },
+    {
+      "title": "ATM: Black-Box Test Case Minimization Based on Test Code Similarity and Evolutionary Search",
+      "authors": [
+        {
+          "name": "Rongqi Pan",
+          "self": false
+        },
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Lionel Briand",
+          "self": false
+        }
+      ],
+      "venue": "ICSE 2023",
+      "year": 2023
+    },
+    {
+      "title": "Enhanced Visualization of Method Invocations by Extending Reverse-Engineered Sequence Diagrams",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "VISSOFT 2020",
+      "year": 2020
+    },
+    {
+      "title": "Software Energy Measurement at Different Levels of Granularity",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        }
+      ],
+      "venue": "ICCIS 2019",
+      "year": 2019
+    }
+  ],
+  "patent": [
+    {
+      "title": "Method for Compiling Concise Source Code",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Abdullah Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "US Patent and Trademark Office (2021) - Patent No: US 10,901,711",
+      "year": 2021
+    },
+    {
+      "title": "Source Code Compiler System",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Abdullah Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "US Patent and Trademark Office (2021) - Patent No: US 10,901,712",
+      "year": 2021
+    },
+    {
+      "title": "Software Engineering Method Including Tracing and Visualizing",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Abdullah Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "US Patent and Trademark Office (2021) - Patent No: US 11,126,527",
+      "year": 2021
+    },
+    {
+      "title": "Method Including Collecting and Querying Source Code to Reverse Engineer Software",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Abdullah Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "US Patent and Trademark Office (2021) - Patent No: US 11,126,526",
+      "year": 2021
+    },
+    {
+      "title": "Reverse Engineering Method, System and Computer Program Thereof",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Abdullah Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "US Patent and Trademark Office (2020) - Patent No: US 10,552,286",
+      "year": 2020
+    },
+    {
+      "title": "Methods, Computer Readable Media, and Systems for Compiling Concise Expressive Design Pattern Source Code",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Khalid Abdullah Aljasser",
+          "self": false
+        },
+        {
+          "name": "Musab A Alturki",
+          "self": false
+        }
+      ],
+      "venue": "US Patent and Trademark Office (2019) - Patent No: US 10,437,572",
+      "year": 2019
+    },
+    {
+      "title": "XML Node Labeling and Querying Using Logical Operators",
+      "authors": [
+        {
+          "name": "Taher A. Ghaleb",
+          "self": true
+        },
+        {
+          "name": "Salahadin Mohammed",
+          "self": false
+        }
+      ],
+      "venue": "US Patent and Trademark Office (2016) - Patent No: US 9,529,932",
+      "year": 2016
+    }
+  ]
+}

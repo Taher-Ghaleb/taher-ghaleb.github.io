@@ -1,0 +1,589 @@
+,gh_repository_name,pattern,sub_pattern,sub_pattern_details
+1,activeadmin/activeadmin,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+2,ActiveJpa/activejpa,. --> + --> . --> +,. --> + --> . --> +,timely_broken --> timely_passed --> timely_broken --> timely_passed
+3,activerecord-hackery/ransack,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+4,activescaffold/active_scaffold,. --> -,. --> . --> . --> -,long_passed --> long_passed --> long_passed --> long_broken
+5,adhearsion/adhearsion,- --> . --> -,- --> - --> . --> -,long_broken --> long_broken --> timely_broken --> long_broken
+6,ai/autoprefixer-rails,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+7,airbnb/nerve,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+8,airbnb/synapse,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+9,airlift/airlift,- --> .,- --> . --> . --> .,long_broken --> long_passed --> long_passed --> long_passed
+10,airlift/slice,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+11,albertlatacz/java-repl,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+12,alexreisner/geocoder,. --> -,. --> . --> - --> -,long_passed --> long_passed --> long_broken --> long_broken
+13,amahi/platform,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+14,amatsuda/active_decorator,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+15,ankane/groupdate,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+16,ankane/searchkick,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+17,anthonycr/Lightning-Browser,. --> + --> .,. --> + --> . --> .,timely_broken --> timely_passed --> long_passed --> long_passed
+18,antirez/redis-doc,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+19,aol/micro-server,.,. --> . --> . --> .,timely_broken --> timely_broken --> timely_broken --> timely_broken
+20,apache/drill,- --> .,- --> - --> . --> .,long_broken --> long_broken --> long_passed --> long_passed
+21,apache/flink,- --> . --> -,- --> . --> . --> -,long_broken --> long_passed --> long_passed --> long_broken
+22,apache/jackrabbit-oak,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+23,apache/storm,- --> .,- --> . --> . --> .,long_broken --> long_passed --> long_passed --> long_passed
+24,arangamani/jenkins_api_client,. --> + --> . --> +,. --> + --> . --> +,timely_broken --> timely_passed --> long_passed --> timely_passed
+25,arsduo/koala,+ --> . --> +,+ --> . --> + --> +,timely_passed --> timely_broken --> timely_passed --> timely_passed
+26,ArturT/knapsack,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+27,asakusarb/action_args,.,. --> . --> . --> .,timely_broken --> long_passed --> long_passed --> long_passed
+28,asciidocfx/AsciidocFX,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+29,asciidoctor/asciidoctor,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+30,asciidoctor/asciidoctor-diagram,. --> + --> .,. --> . --> + --> .,long_passed --> long_passed --> timely_passed --> long_passed
+31,assaf/vanity,- --> .,- --> . --> . --> .,long_broken --> long_passed --> long_passed --> long_passed
+32,awestruct/awestruct,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+33,aws/aws-sdk-java,- --> .,- --> . --> . --> .,long_broken --> long_passed --> long_passed --> long_passed
+34,aws/aws-sdk-ruby,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+35,azagniotov/stubby4j,+ --> . --> +,+ --> . --> + --> +,timely_passed --> timely_broken --> timely_passed --> timely_passed
+36,azkaban/azkaban,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+37,Azure/azure-sdk-for-ruby,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+38,AzureAD/azure-activedirectory-library-for-android,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+39,bartdag/py4j,+ --> . --> -,+ --> + --> . --> -,timely_passed --> timely_passed --> long_passed --> long_broken
+40,basho/riak-java-client,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> timely_broken --> timely_passed --> long_passed
+41,BBC-News/wraith,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+42,benbalter/gman,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+43,benbalter/jekyll-auth,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> timely_broken --> timely_broken
+44,benbalter/word-to-markdown,+ --> . --> +,+ --> . --> . --> +,timely_passed --> timely_broken --> timely_broken --> timely_passed
+45,bikeindex/bike_index,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+46,binarylogic/authlogic,. --> +,. --> . --> + --> +,long_passed --> long_passed --> timely_passed --> timely_passed
+47,biojava/biojava,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+48,bitcoinj/bitcoinj,. --> +,. --> . --> + --> +,long_passed --> long_passed --> timely_passed --> timely_passed
+49,bkeepers/dotenv,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+50,blowmage/minitest-rails,- --> .,- --> . --> . --> .,long_broken --> long_passed --> long_passed --> long_passed
+51,bndtools/bnd,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+52,bndtools/bndtools,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+53,bogdan/datagrid,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+54,bokmann/business_time,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+55,brettwooldridge/HikariCP,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+56,brianmario/mysql2,+ --> . --> - --> .,+ --> . --> - --> .,timely_passed --> long_passed --> long_broken --> long_passed
+57,broadinstitute/picard,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+58,brooklynDev/airborne,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+59,bugsnag/bugsnag-android,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+60,bugsnag/bugsnag-ruby,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+61,BuildCraft/BuildCraft,.,. --> . --> . --> .,long_passed --> timely_broken --> long_passed --> long_passed
+62,bumptech/glide,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+63,burke/zeus,. --> +,. --> . --> + --> +,timely_broken --> timely_broken --> timely_passed --> timely_passed
+64,bwillis/versioncake,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+65,byroot/activerecord-typedstore,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+66,caelum/vraptor4,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+67,calabash/calabash-ios,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+68,calagator/calagator,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+69,CanCanCommunity/cancancan,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+70,cantino/reckon,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+71,carrierwaveuploader/carrierwave,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+72,carymrobbins/intellij-haskforce,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+73,Casecommons/pg_search,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+74,celluloid/celluloid,+ --> . --> - --> .,+ --> . --> - --> .,timely_passed --> long_passed --> long_broken --> long_passed
+75,cerebris/jsonapi-resources,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+76,cgriego/active_attr,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+77,checkstyle/checkstyle,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+78,cheezy/page-object,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+79,chef/chef,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+80,chef/omnibus,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+81,cloudfoundry/cloud_controller_ng,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+82,cloudfoundry/uaa,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+83,code-mancers/invoker,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+84,code4craft/webmagic,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+85,codecation/trailmix,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+86,codeforamerica/citygram,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+87,codeforamerica/follow-all,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+88,codetriage/codetriage,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+89,codevise/pageflow,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+90,collectiveidea/audited,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+91,collectiveidea/interactor,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+92,colszowka/simplecov,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+93,comfy/comfortable-mexican-sofa,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+94,concerto/concerto,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+95,connectbot/connectbot,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+96,ctran/annotate_models,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+97,cypriss/mutations,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+98,cyu/rack-cors,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+99,danmunn/redmine_dmsf,. --> + --> .,. --> . --> + --> .,timely_broken --> timely_broken --> timely_passed --> long_passed
+100,DatabaseCleaner/database_cleaner,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+101,datastax/java-driver,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+102,datastax/ruby-driver,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+103,davidcelis/api-pagination,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+104,davidmoten/rxjava-jdbc,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+105,diaspora/diaspora,- --> . --> -,- --> - --> . --> -,long_broken --> long_broken --> long_passed --> long_broken
+106,diowa/icare,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+107,discourse/onebox,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+108,dita-ot/dita-ot,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+109,dkubb/equalizer,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> timely_broken
+110,doanduyhai/Achilles,. --> + --> .,. --> + --> + --> .,long_passed --> timely_passed --> timely_passed --> long_passed
+111,doorkeeper-gem/doorkeeper,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+112,DozerMapper/dozer,. --> + --> .,. --> + --> . --> .,long_passed --> timely_passed --> long_passed --> long_passed
+113,drapergem/draper,+ --> . --> +,+ --> . --> . --> +,timely_passed --> long_passed --> long_passed --> timely_passed
+114,drbrain/net-http-persistent,. --> +,. --> + --> + --> +,timely_broken --> timely_passed --> timely_passed --> timely_passed
+115,dreamhead/moco,+ --> . --> -,+ --> + --> . --> -,timely_passed --> timely_passed --> long_passed --> long_broken
+116,drecom/activerecord-turntable,. --> -,. --> . --> - --> -,long_passed --> long_passed --> long_broken --> long_broken
+117,drewnoakes/metadata-extractor,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+118,dropwizard/dropwizard,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+119,dropwizard/metrics,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+120,DSpace/DSpace,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+121,eapache/starscope,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+122,elastic/logstash,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+123,embulk/embulk,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+124,emilsjolander/sprinkles,.,. --> . --> . --> .,timely_broken --> timely_broken --> timely_broken --> timely_broken
+125,engineyard/engineyard-serverside,. --> +,. --> . --> + --> +,long_passed --> long_passed --> timely_passed --> timely_passed
+126,engineyard/ey-cloud-recipes,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+127,erikhuda/thor,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+128,errbit/errbit,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+129,Esri/geometry-api-java,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+130,eval/envied,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+131,eventmachine/eventmachine,. --> + --> .,. --> + --> + --> .,timely_broken --> timely_passed --> timely_passed --> long_passed
+132,evolve75/RubyTree,. --> +,. --> . --> . --> +,timely_broken --> timely_broken --> long_passed --> timely_passed
+133,excon/excon,+ --> . --> +,+ --> . --> . --> +,timely_passed --> long_passed --> long_passed --> timely_passed
+134,eXist-db/exist,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+135,expertiza/expertiza,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+136,express42/zabbixapi,+ --> . --> -,+ --> + --> . --> -,timely_passed --> timely_passed --> timely_broken --> long_broken
+137,fabiomaffioletti/jsondoc,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+138,facebook/buck,-,- --> - --> - --> -,long_broken --> long_broken --> long_broken --> long_broken
+139,FasterXML/jackson-annotations,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+140,FasterXML/jackson-core,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+141,FasterXML/jackson-databind,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+142,fatfreecrm/fat_free_crm,. --> - --> .,. --> - --> . --> .,long_passed --> long_broken --> long_passed --> long_passed
+143,faye/faye-websocket-ruby,+ --> . --> +,+ --> . --> . --> +,timely_passed --> timely_broken --> long_passed --> timely_passed
+144,feedbin/feedbin,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+145,felipecsl/wombat,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+146,FenixEdu/fenixedu-academic,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+147,fgrehm/vagrant-lxc,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+148,Findwise/Hydra,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+149,floere/phony,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+150,flood-io/ruby-jmeter,+ --> . --> +,+ --> . --> + --> +,timely_passed --> timely_broken --> timely_passed --> timely_passed
+151,flori/json,+ --> . --> +,+ --> . --> . --> +,timely_passed --> long_passed --> long_passed --> timely_passed
+152,fluent/fluent-logger-ruby,. --> +,. --> + --> + --> +,timely_broken --> timely_passed --> timely_passed --> timely_passed
+153,fluent/fluent-plugin-s3,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+154,fluent/fluentd,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+155,flyerhzm/bullet,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+156,fnando/browser,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+157,fog/fog,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+158,fphilipe/premailer-rails,. --> - --> +,. --> - --> + --> +,long_passed --> long_broken --> timely_passed --> timely_passed
+159,frab/frab,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+160,freerange/mocha,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+161,Frege/frege,. --> + --> .,. --> . --> + --> .,long_passed --> long_passed --> timely_passed --> long_passed
+162,Fullscreen/yt,+ --> - --> +,+ --> - --> - --> +,timely_passed --> long_broken --> long_broken --> timely_passed
+163,gazay/gon,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+164,Gazler/githug,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+165,geminabox/geminabox,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+166,geoserver/geoserver,- --> .,- --> . --> . --> .,long_broken --> long_passed --> long_passed --> long_passed
+167,gettalong/kramdown,- --> + --> .,- --> + --> . --> .,long_broken --> timely_passed --> long_passed --> long_passed
+168,git/git-scm.com,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+169,github/gemoji,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+170,github/github-services,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+171,github/hub,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+172,github/linguist,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+173,github/pages-gem,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+174,gjtorikian/html-proofer,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+175,glebm/i18n-tasks,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+176,glebm/rails_email_preview,. --> -,. --> . --> . --> -,long_passed --> long_passed --> long_passed --> long_broken
+177,glejeune/Ruby-Graphviz,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+178,GlowstoneMC/Glowstone,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+179,gma/nesta,+ --> . --> +,+ --> . --> + --> +,timely_passed --> timely_broken --> timely_passed --> timely_passed
+180,gocardless/hutch,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+181,google/auto,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+182,google/closure-compiler,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+183,google/error-prone,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+184,google/guava,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+185,google/guice,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+186,google/truth,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+187,GoogleCloudPlatform/DataflowJavaSDK,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+188,gradle/gradle,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+189,grails/grails-core,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+190,graphhopper/graphhopper,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+191,Graylog2/graylog2-server,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+192,greenrobot/greenDAO,. --> - --> .,. --> - --> . --> .,long_passed --> long_broken --> long_passed --> long_passed
+193,gregorym/bump,. --> - --> .,. --> - --> . --> .,timely_broken --> long_broken --> long_passed --> long_passed
+194,gresrun/jesque,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+195,griffon/griffon,. --> -,. --> . --> . --> -,long_passed --> long_passed --> long_passed --> long_broken
+196,grosser/fast_gettext,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+197,grosser/parallel,+ --> -,+ --> + --> + --> -,timely_passed --> timely_passed --> timely_passed --> long_broken
+198,grosser/parallel_tests,- --> . --> +,- --> . --> . --> +,long_broken --> long_passed --> long_passed --> timely_passed
+199,grosser/wwtd,. --> + --> .,. --> + --> . --> .,timely_broken --> timely_passed --> long_passed --> long_passed
+200,Growstuff/growstuff,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+201,grpc/grpc-java,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+202,guard/guard,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+203,guard/listen,+ --> - --> .,+ --> - --> - --> .,timely_passed --> long_broken --> long_broken --> long_passed
+204,haiwen/seadroid,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+205,hamcrest/JavaHamcrest,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+206,haml/haml,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+207,hashrocket/decent_exposure,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+208,heroku/heroku-buildpack-ruby,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+209,hexorx/countries,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+210,hiki/hiki,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+211,Homebrew/homebrew-bundle,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+212,honeybadger-io/honeybadger-ruby,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+213,htty/htty,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+214,HubSpot/jinjava,. --> + --> . --> -,. --> + --> . --> -,long_passed --> timely_passed --> timely_broken --> long_broken
+215,HubSpot/Singularity,. --> -,. --> - --> - --> -,long_passed --> long_broken --> long_broken --> long_broken
+216,huerlisi/bookyt,. --> +,. --> . --> . --> +,timely_broken --> timely_broken --> timely_broken --> timely_passed
+217,igniterealtime/Openfire,+ --> . --> -,+ --> + --> . --> -,timely_passed --> timely_passed --> long_passed --> long_broken
+218,igniterealtime/Smack,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+219,igrigorik/http-2,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+220,iipc/openwayback,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+221,iluwatar/java-design-patterns,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+222,inaturalist/inaturalist,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+223,increments/qiita-markdown,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+224,influitive/apartment,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+225,innoq/iqvoc,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+226,integrallis/stripe_event,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+227,interagent/pliny,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+228,intercom/intercom-ruby,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+229,intridea/hashie,. --> + --> .,. --> . --> + --> .,long_passed --> long_passed --> timely_passed --> long_passed
+230,ivaldi/brimir,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+231,JakeWharton/timber,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+232,JakeWharton/u2020,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+233,jamesagnew/hapi-fhir,. --> -,. --> . --> - --> -,long_passed --> long_passed --> long_broken --> long_broken
+234,jasmine/jasmine-gem,. --> -,. --> . --> . --> -,long_passed --> long_passed --> long_passed --> long_broken
+235,javaee-samples/javaee7-samples,-,- --> - --> - --> -,long_broken --> long_broken --> long_broken --> long_broken
+236,JavaMoney/jsr354-api,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+237,javaparser/javaparser,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+238,jberkel/sms-backup-plus,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+239,jbox-web/redmine_git_hosting,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+240,jcabi/jcabi-aspects,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+241,jcabi/jcabi-http,+ --> -,+ --> + --> - --> -,timely_passed --> timely_passed --> long_broken --> long_broken
+242,jch/html-pipeline,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+243,jekyll/jekyll-sitemap,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+244,jeremyevans/sequel,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+245,jfelchner/ruby-progressbar,. --> + --> -,. --> . --> + --> -,timely_broken --> timely_broken --> timely_passed --> long_broken
+246,jhy/jsoup,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+247,jmettraux/rufus-scheduler,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+248,jMonkeyEngine/jmonkeyengine,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+249,jmxtrans/jmxtrans,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+250,jnicklas/turnip,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+251,jnunemaker/flipper,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> timely_broken --> long_passed
+252,jnunemaker/httparty,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+253,JodaOrg/joda-time,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+254,joelittlejohn/jsonschema2pojo,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+255,joeyates/imap-backup,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+256,johncarl81/parceler,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+257,jOOQ/jOOQ,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+258,jordansissel/fpm,+ --> . --> -,+ --> + --> . --> -,timely_passed --> timely_passed --> timely_broken --> long_broken
+259,JoshCheek/seeing_is_believing,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+260,joshwlewis/unitwise,+ --> . --> +,+ --> . --> . --> +,timely_passed --> long_passed --> long_passed --> timely_passed
+261,journeyapps/zxing-android-embedded,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+262,jpos/jPOS,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+263,jruby/activerecord-jdbc-adapter,- --> . --> -,- --> . --> - --> -,long_broken --> long_passed --> long_broken --> long_broken
+264,jruby/jruby,. --> - --> .,. --> - --> - --> .,long_passed --> long_broken --> long_broken --> long_passed
+265,jsonld-java/jsonld-java,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+266,julman99/gson-fire,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+267,junegunn/fzf,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+268,jwtk/jjwt,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+269,kaizenplatform/fluent-plugin-bigquery,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+270,Kapeli/cheatsheets,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+271,keenlabs/keen-gem,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+272,kelemen/netbeans-gradle-project,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+273,kickstarter/rack-attack,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+274,killbill/killbill,. --> -,. --> . --> - --> -,long_passed --> long_passed --> long_broken --> long_broken
+275,kmuto/review,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+276,knightliao/disconf,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+277,kongchen/swagger-maven-plugin,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+278,kpumuk/meta-tags,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+279,KronicDeth/intellij-elixir,. --> -,. --> . --> - --> -,long_passed --> long_passed --> long_broken --> long_broken
+280,l0rdn1kk0n/wicket-bootstrap,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> timely_broken --> timely_passed
+281,langalex/couch_potato,. --> - --> .,. --> . --> - --> .,timely_broken --> long_passed --> long_broken --> long_passed
+282,languagetool-org/languagetool,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+283,laserlemon/figaro,. --> -,. --> - --> - --> -,long_passed --> long_broken --> long_broken --> long_broken
+284,laurilehmijoki/s3_website,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+285,ledermann/unread,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+286,leejarvis/slop,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+287,lenskit/lenskit,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+288,lian/bitcoin-ruby,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+289,librato/librato-metrics,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+290,librato/librato-rails,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+291,Locale/localeapp,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+292,locomotivecms/engine,- --> .,- --> - --> . --> .,long_broken --> long_broken --> long_passed --> long_passed
+293,loomio/loomio,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+294,lostisland/faraday,- --> + --> .,- --> + --> + --> .,long_broken --> timely_passed --> timely_passed --> long_passed
+295,lostisland/faraday_middleware,. --> +,. --> + --> + --> +,timely_broken --> timely_passed --> timely_passed --> timely_passed
+296,lsegal/yard,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+297,lviggiano/owner,. --> +,. --> . --> + --> +,long_passed --> long_passed --> timely_passed --> timely_passed
+298,lynndylanhurley/devise_token_auth,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+299,magnusvk/counter_culture,. --> + --> .,. --> + --> . --> .,long_passed --> timely_passed --> long_passed --> long_passed
+300,mame/quine-relay,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+301,ManageIQ/manageiq,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+302,marcandre/backports,. --> +,. --> + --> + --> +,timely_broken --> timely_passed --> timely_passed --> timely_passed
+303,markevans/dragonfly,. --> -,. --> . --> . --> -,timely_broken --> long_passed --> long_passed --> long_broken
+304,mattbrictson/airbrussh,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+305,mattheworiordan/capybara-screenshot,+ --> - --> .,+ --> + --> - --> .,timely_passed --> timely_passed --> long_broken --> timely_broken
+306,maxcom/lorsource,. --> + --> .,. --> . --> + --> .,long_passed --> long_passed --> timely_passed --> long_passed
+307,MaximeD/gem_updater,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+308,mbleigh/acts-as-taggable-on,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+309,mendhak/gpslogger,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+310,merit-gem/merit,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+311,mgomes/api_auth,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+312,middleman/middleman,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+313,mikel/mail,. --> +,. --> . --> . --> +,timely_broken --> long_passed --> long_passed --> timely_passed
+314,mikera/vectorz,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+315,mileszs/wicked_pdf,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+316,minimagick/minimagick,. --> + --> -,. --> . --> + --> -,long_passed --> long_passed --> timely_passed --> long_broken
+317,MiniProfiler/rack-mini-profiler,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+318,mislav/will_paginate,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+319,mockito/mockito,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+320,mperham/sidekiq,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+321,mrkamel/search_cop,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+322,MrTJP/ProjectRed,. --> + --> .,. --> + --> . --> .,long_passed --> timely_passed --> timely_broken --> timely_broken
+323,ms-ati/docile,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+324,msgpack/msgpack-java,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+325,mybatis/mybatis-3,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+326,mybatis/spring,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+327,mycila/license-maven-plugin,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+328,myui/hivemall,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+329,nahi/httpclient,. --> - --> +,. --> - --> - --> +,timely_broken --> long_broken --> long_broken --> timely_passed
+330,nanoc/nanoc,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+331,NARKOZ/gitlab,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+332,nateware/redis-objects,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+333,natritmeyer/site_prism,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+334,naver/pinpoint,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+335,neo4jrb/neo4j,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+336,neo4jrb/neo4j-core,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+337,nesquena/rabl,. --> +,. --> + --> + --> +,timely_broken --> timely_passed --> timely_passed --> timely_passed
+338,Netflix/Hystrix,. --> -,. --> . --> - --> -,timely_broken --> long_passed --> long_broken --> long_broken
+339,neuland/jade4j,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> timely_broken --> timely_passed --> timely_broken
+340,nevans/resque-pool,+ --> . --> +,+ --> . --> . --> +,timely_passed --> timely_broken --> timely_broken --> timely_passed
+341,newrelic/rpm,+ --> . --> -,+ --> . --> . --> -,timely_passed --> long_passed --> long_passed --> long_broken
+342,nohana/Laevatein,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+343,norman/friendly_id,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+344,northworld/google_calendar,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+345,nov/json-jwt,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+346,nov/openid_connect,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+347,numenta/htm.java,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> timely_broken
+348,nutzam/nutz,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+349,oblac/jodd,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+350,olbrich/ruby-units,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+351,OneBusAway/onebusaway-android,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+352,opal/opal,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+353,openaustralia/morph,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+354,openfoodfoundation/openfoodnetwork,. --> - --> .,. --> - --> . --> .,long_passed --> long_broken --> long_passed --> long_passed
+355,openpnp/openpnp,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+356,OpenRefine/OpenRefine,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+357,openstreetmap/openstreetmap-website,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+358,openSUSE/open-build-service,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+359,OpenTSDB/opentsdb,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+360,opf/openproject,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+361,orbeon/orbeon-forms,. --> - --> .,. --> - --> . --> .,long_passed --> long_broken --> long_passed --> long_passed
+362,orientation/orientation,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+363,OryxProject/oryx,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+364,owlcs/owlapi,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+365,owlike/genson,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+366,owncloud/android,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+367,p6spy/p6spy,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+368,padrino/padrino-framework,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+369,Parallels/vagrant-parallels,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+370,pat/thinking-sphinx,- --> .,- --> - --> - --> .,long_broken --> long_broken --> long_broken --> long_passed
+371,pboling/sanitize_email,+ --> . --> -,+ --> . --> . --> -,timely_passed --> timely_broken --> long_passed --> long_broken
+372,pdfkit/pdfkit,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+373,perfectsense/brightspot-cms,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+374,perwendel/spark,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+375,philostler/rspec-sidekiq,+ --> . --> - --> .,+ --> . --> - --> .,timely_passed --> long_passed --> long_broken --> long_passed
+376,phoet/on_ruby,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+377,phstc/putsreq,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+378,phstc/shoryuken,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+379,plataformatec/devise,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+380,plataformatec/simple_form,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+381,poise/poise,+ --> . --> -,+ --> . --> . --> -,timely_passed --> long_passed --> long_passed --> long_broken
+382,prawnpdf/prawn,. --> + --> .,. --> + --> + --> .,long_passed --> timely_passed --> timely_passed --> long_passed
+383,premailer/premailer,.,. --> . --> . --> .,timely_broken --> timely_broken --> timely_broken --> timely_broken
+384,presidentbeef/brakeman,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+385,projectblacklight/blacklight,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+386,protostuff/protostuff,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+387,psi-probe/psi-probe,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+388,psu-stewardship/scholarsphere,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+389,pulse00/Symfony-2-Eclipse-Plugin,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+390,puma/puma,+ --> - --> .,+ --> - --> . --> .,timely_passed --> long_broken --> long_passed --> long_passed
+391,puniverse/quasar,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+392,puppetlabs/facter,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+393,puppetlabs/puppet,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+394,puppetlabs/puppetlabs-firewall,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+395,puppetlabs/puppetlabs-stdlib,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+396,pushtorefresh/storio,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+397,qiniu/java-sdk,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> timely_broken --> timely_broken
+398,qos-ch/logback,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+399,qos-ch/slf4j,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+400,querydsl/querydsl,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+401,rabbit-shocker/rabbit,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+402,rackerlabs/blueflood,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+403,radiant/radiant,. --> -,. --> . --> . --> -,long_passed --> long_passed --> timely_broken --> long_broken
+404,rails-api/active_model_serializers,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+405,rails/activeresource,+ --> . --> +,+ --> . --> + --> +,timely_passed --> timely_broken --> timely_passed --> timely_passed
+406,rails/globalid,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+407,rails/jbuilder,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+408,rails/rails,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+409,rails/spring,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+410,rails/sprockets-rails,. --> + --> .,. --> + --> . --> .,timely_broken --> timely_passed --> timely_broken --> timely_broken
+411,railsbridge/docs,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+412,railsware/js-routes,.,. --> . --> . --> .,timely_broken --> long_passed --> long_passed --> long_passed
+413,randym/axlsx,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+414,rapid7/metasploit-framework,. --> + --> .,. --> + --> . --> .,long_passed --> timely_passed --> long_passed --> long_passed
+415,ReactiveX/RxAndroid,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+416,ReactiveX/RxJava,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+417,reactjs/react-rails,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+418,rebelidealist/stripe-ruby-mock,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+419,recurly/recurly-client-ruby,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+420,redis/redis-rb,+ --> . --> - --> .,+ --> . --> - --> .,timely_passed --> long_passed --> long_broken --> long_passed
+421,redline-smalltalk/redline-smalltalk,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> timely_broken --> timely_broken
+422,refile/refile,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+423,refinery/refinerycms,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+424,refinery/refinerycms-blog,. --> - --> . --> +,. --> - --> . --> +,long_passed --> long_broken --> timely_broken --> timely_passed
+425,relayrides/pushy,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+426,remiprev/her,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+427,resque/resque,. --> +,. --> . --> + --> +,long_passed --> long_passed --> timely_passed --> timely_passed
+428,restlet/restlet-framework-java,.,. --> . --> . --> .,timely_broken --> timely_broken --> long_passed --> long_passed
+429,rgeo/activerecord-postgis-adapter,. --> + --> .,. --> . --> + --> .,long_passed --> long_passed --> timely_passed --> long_passed
+430,rgrove/sanitize,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+431,rodjek/puppet-lint,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+432,rodjek/rspec-puppet,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+433,roidrage/lograge,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+434,rollbar/rollbar-gem,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+435,rpush/rpush,.,. --> . --> . --> .,timely_broken --> long_passed --> long_passed --> long_passed
+436,RS485/LogisticsPipes,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+437,rspec/rspec-collection_matchers,+ --> . --> - --> .,+ --> . --> - --> .,timely_passed --> long_passed --> long_broken --> long_passed
+438,rspec/rspec-core,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+439,rspec/rspec-expectations,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+440,rspec/rspec-mocks,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+441,rspec/rspec-rails,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+442,rubinius/rubinius,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+443,ruboto/ruboto,-,- --> - --> - --> -,long_broken --> long_broken --> long_broken --> long_broken
+444,ruby-concurrency/concurrent-ruby,- --> .,- --> . --> . --> .,long_broken --> long_passed --> long_passed --> long_passed
+445,ruby-json-schema/json-schema,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+446,ruby-ldap/ruby-net-ldap,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+447,ruby-rdf/json-ld,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+448,ruby-rdf/rdf,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+449,ruby/ruby,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+450,rubychan/coderay,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+451,rubygems/rubygems,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+452,RubyMoney/monetize,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+453,RubyMoney/money,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+454,RubyMoney/money-rails,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+455,rubysec/bundler-audit,.,. --> . --> . --> .,timely_broken --> timely_broken --> timely_broken --> long_passed
+456,rubyzip/rubyzip,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+457,rudionrails/yell,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+458,rundeck/rundeck,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+459,ryanb/letter_opener,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+460,sarxos/webcam-capture,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+461,sass/sass,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+462,savonrb/savon,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+463,scambra/devise_invitable,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+464,searchbox-io/Jest,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> timely_broken
+465,seejohnrun/ice_cube,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+466,selendroid/selendroid,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+467,sensu/sensu,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+468,sensu/sensu-puppet,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+469,sevntu-checkstyle/sevntu.checkstyle,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+470,sferik/rails_admin,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+471,sferik/twitter,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+472,shoes/shoes4,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+473,Shopify/active_shipping,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+474,Shopify/identity_cache,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+475,Shopify/liquid,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+476,Shopify/shipit-engine,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+477,Shopify/shopify_api,. --> +,. --> + --> + --> +,long_passed --> timely_passed --> timely_passed --> timely_passed
+478,Shopify/shopify_app,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+479,Shopify/statsd-instrument,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+480,Shopify/verdict,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+481,shyiko/mysql-binlog-connector-java,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+482,SimonVT/cathode,+ --> .,+ --> . --> . --> .,timely_passed --> timely_broken --> long_passed --> long_passed
+483,simpligility/android-maven-plugin,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+484,skoji/gepub,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+485,skylightio/skylight-ruby,+ --> - --> .,+ --> - --> . --> .,timely_passed --> long_broken --> long_passed --> long_passed
+486,slim-template/slim,-,- --> - --> - --> -,long_broken --> long_broken --> long_broken --> long_broken
+487,SoftInstigate/restheart,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+488,SonarSource/sonarqube,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+489,sparklemotion/mechanize,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+490,sparklemotion/nokogiri,.,. --> . --> . --> .,timely_broken --> long_passed --> long_passed --> long_passed
+491,sparklemotion/sqlite3-ruby,. --> +,. --> . --> . --> +,timely_broken --> timely_broken --> timely_broken --> timely_passed
+492,spockframework/spock,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+493,SpongePowered/SpongeAPI,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+494,sporkmonger/addressable,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+495,spotify/docker-client,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+496,spree-contrib/spree_active_shipping,+ --> . --> -,+ --> . --> - --> -,timely_passed --> long_passed --> long_broken --> long_broken
+497,spree-contrib/spree_i18n,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+498,spree-contrib/spree_social,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+499,spree-contrib/spree_wishlist,.,. --> . --> . --> .,timely_broken --> long_passed --> long_passed --> long_passed
+500,spree/spree,-,- --> - --> - --> -,long_broken --> long_broken --> long_broken --> long_broken
+501,spree/spree_gateway,.,. --> . --> . --> .,timely_broken --> long_passed --> long_passed --> long_passed
+502,spring-io/sagan,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+503,spring-projects/spring-data-examples,. --> -,. --> . --> - --> -,long_passed --> long_passed --> long_broken --> long_broken
+504,springside/springside4,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> timely_broken
+505,spullara/mustache.java,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+506,square/android-times-square,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+507,square/javapoet,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+508,square/keywhiz,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+509,square/moshi,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+510,square/okhttp,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+511,square/okio,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+512,square/picasso,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+513,square/retrofit,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+514,square/shuttle,- --> . --> -,- --> . --> . --> -,long_broken --> long_passed --> timely_broken --> long_broken
+515,square/wire,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+516,stripe/einhorn,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+517,sue445/rubicure,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+518,supermarin/xcpretty,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+519,svenfuchs/gem-release,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+520,svenfuchs/rails-i18n,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+521,swanson/stringer,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+522,swipely/docker-api,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+523,t-oster/VisiCut,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+524,taskrabbit/makara,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+525,tdiary/tdiary-core,. --> +,. --> . --> . --> +,long_passed --> long_passed --> long_passed --> timely_passed
+526,teamed/qulice,. --> - --> .,. --> - --> . --> .,long_passed --> long_broken --> timely_broken --> timely_broken
+527,teampoltergeist/poltergeist,+ --> . --> -,+ --> . --> . --> -,timely_passed --> long_passed --> long_passed --> long_broken
+528,test-kitchen/kitchen-vagrant,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+529,test-kitchen/test-kitchen,. --> + --> .,. --> + --> + --> .,long_passed --> timely_passed --> timely_passed --> long_passed
+530,test-unit/test-unit,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+531,TestFX/TestFX,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> timely_broken
+532,theforeman/foreman,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+533,thinreports/thinreports-generator,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+534,thorin/redmine_ldap_sync,- --> . --> -,- --> . --> . --> -,long_broken --> long_passed --> long_passed --> long_broken
+535,thoughtbot/capybara-webkit,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+536,thoughtbot/clearance,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+537,thoughtbot/flutie,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+538,thoughtbot/gitsh,+ --> . --> +,+ --> . --> + --> +,timely_passed --> timely_broken --> timely_passed --> timely_passed
+539,thoughtbot/high_voltage,. --> + --> .,. --> + --> . --> .,timely_broken --> timely_passed --> long_passed --> long_passed
+540,thoughtbot/paperclip,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+541,thoughtbot/paul_revere,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+542,thoughtbot/shoulda-matchers,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+543,thoughtbot/suspenders,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+544,tigrish/devise-i18n,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+545,tmuxinator/tmuxinator,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+546,togglz/togglz,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+547,tom-lord/regexp-examples,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+548,tomp2p/TomP2P,- --> .,- --> - --> - --> .,long_broken --> long_broken --> long_broken --> timely_broken
+549,topfunky/gruff,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+550,toptal/chewy,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+551,torakiki/pdfsam,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+552,toy/image_optim,. --> + --> .,. --> + --> . --> .,long_passed --> timely_passed --> long_passed --> long_passed
+553,travis-ci/travis-cookbooks,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+554,travis-ci/travis.rb,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+555,troessner/reek,+ --> . --> + --> .,+ --> . --> + --> .,timely_passed --> long_passed --> timely_passed --> long_passed
+556,twilio/twilio-java,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+557,twilio/twilio-ruby,. --> + --> .,. --> + --> + --> .,long_passed --> timely_passed --> timely_passed --> long_passed
+558,twitter/twitter-cldr-rb,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+559,TwP/logging,. --> - --> + --> .,. --> - --> + --> .,timely_broken --> long_broken --> timely_passed --> timely_broken
+560,typhoeus/ethon,. --> + --> .,. --> + --> + --> .,timely_broken --> timely_passed --> timely_passed --> long_passed
+561,typhoeus/typhoeus,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+562,undera/jmeter-plugins,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+563,Unidata/thredds,.,. --> . --> . --> .,timely_broken --> long_passed --> long_passed --> long_passed
+564,validator/validator,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+565,vcr/vcr,. --> - --> .,. --> . --> - --> .,long_passed --> long_passed --> long_broken --> long_passed
+566,voormedia/rails-erd,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+567,WeAreFarmGeek/diplomat,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+568,weppos/whois,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+569,willdurand/puppet-nodejs,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+570,winebarrel/ridgepole,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+571,WinRb/WinRM,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+572,woorea/openstack-java-sdk,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+573,wvanbergen/chunky_png,. --> +,. --> + --> + --> +,timely_broken --> timely_passed --> timely_passed --> timely_passed
+574,xerial/sqlite-jdbc,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
+575,xetorthio/jedis,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> timely_broken
+576,xtreemfs/xtreemfs,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+577,yegor256/rultor,. --> + --> . --> -,. --> + --> . --> -,long_passed --> timely_passed --> long_passed --> long_broken
+578,yob/pdf-reader,. --> + --> .,. --> + --> . --> .,long_passed --> timely_passed --> long_passed --> long_passed
+579,yolk/valvat,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+580,yujinakayama/transpec,.,. --> . --> . --> .,long_passed --> long_passed --> long_passed --> long_passed
+581,yuki24/did_you_mean,+ --> . --> +,+ --> . --> + --> +,timely_passed --> long_passed --> timely_passed --> timely_passed
+582,zdavatz/spreadsheet,. --> + --> .,. --> . --> + --> .,timely_broken --> long_passed --> timely_passed --> long_passed
+583,zdennis/activerecord-import,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+584,zeapo/Android-Password-Store,+ --> .,+ --> + --> + --> .,timely_passed --> timely_passed --> timely_passed --> long_passed
+585,zendesk/samson,+ --> .,+ --> . --> . --> .,timely_passed --> long_passed --> long_passed --> long_passed
+586,zeroturnaround/zt-zip,+,+ --> + --> + --> +,timely_passed --> timely_passed --> timely_passed --> timely_passed
+587,zquestz/omniauth-google-oauth2,+ --> . --> +,+ --> + --> . --> +,timely_passed --> timely_passed --> long_passed --> timely_passed
+588,zxing/zxing,+ --> .,+ --> + --> . --> .,timely_passed --> timely_passed --> long_passed --> long_passed
