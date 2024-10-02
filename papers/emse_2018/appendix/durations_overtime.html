@@ -1,0 +1,124 @@
+<!-- durations overtime -->
+<div id="profile" class="content_2">
+    <!-- .title -->
+<center><h1 class="h-bloc">Build durations over time</h1></center><br/>
+
+<div class="clear"></div>
+</div>
+
+<script>
+	/*$('a').click(function(event) {
+		$('#hclust').attr('src', .attr('src', event.target.id + '.png'));
+		return false;
+	});*/
+	function changeImage(thisA){
+	  document.getElementById('overtime_passed').src = "overtime_passed/"+thisA.id+".png";
+	  document.getElementById("proj_name").textContent=thisA.textContent;
+	  document.getElementById("branch_name").textContent=document.getElementById(thisA.id+"_br").textContent;
+	  
+	}
+</script>
+<style>
+	table {
+		border-collapse: collapse;
+	}
+	table, th, td {
+		border: 1px solid black;
+		padding: 5px;
+	}
+	th {
+		height: 50px;
+	}
+	td {
+		border-bottom: 1px solid #ddd;
+	}
+	tr:nth-child(even) {background-color: #f2f2f2;}
+	th {
+		background-color: lightgray;
+		color: black;
+	}
+</style>
+
+<table style="width:100%">
+  <tr>
+    <th width="2%"><h2>No.</h2></th>
+    <th width="14%"><h2>Project Names</h2></th> 
+    <th colspan="2">            <h2>CI build durations overtime (Scatter plots)</h2></th>
+  </tr>
+  <tr>
+    <th style="background-color: white;" colspan="2"></th>
+	<th style="background-color: white;" align="center" colspan="2"> <h1 id="proj_name">activerecord-jdbc-adapter</h1></th>
+  </tr>
+	<tr><td>1  </td> <td><a id="activerecord-jdbc-adapter"              onclick="changeImage(this)" href="#">activerecord-jdbc-adapter             </a></td> 
+		<th style="background-color: #e7e7e7;" width="42%"><h2><i>passed</i> builds @ <i id="branch_name">master</i> branch</h2></th> 
+	</tr>
+	<tr><td>2  </td> <td><a id="ark" onclick="changeImage(this)" href="#">ark</a>  <div id="ark_br" class="hiddentext" style="display: none;"> master </div></td> 
+		<td style="background-color: white;" rowspan="66" valign="top"><img id="overtime_passed" src="overtime_passed/activerecord-jdbc-adapter.png" width="100%"/></td> 
+	</tr>
+	<tr><td> 3  </td> <td><a id="balanced-ruby"              onclick="changeImage(this)" href="#"> balanced-ruby                 </a> <div id="balanced-ruby_br"              class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 4  </td> <td><a id="blacklight"                 onclick="changeImage(this)" href="#"> blacklight                    </a> <div id="blacklight_br"                 class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 5  </td> <td><a id="blueflood"                  onclick="changeImage(this)" href="#"> blueflood                     </a> <div id="blueflood_br"                  class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 6  </td> <td><a id="buck"                       onclick="changeImage(this)" href="#"> buck                          </a> <div id="buck_br"                       class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 7  </td> <td><a id="cancancan"                  onclick="changeImage(this)" href="#"> cancancan                     </a> <div id="cancancan_br"                  class="hiddentext" style="display: none;"> develop            </div> </td> </tr>
+	<tr><td> 8  </td> <td><a id="canvas-lms"                 onclick="changeImage(this)" href="#"> canvas-lms                    </a> <div id="canvas-lms_br"                 class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 9  </td> <td><a id="cape"                       onclick="changeImage(this)" href="#"> cape                          </a> <div id="cape_br"                       class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 10 </td> <td><a id="capybara"                   onclick="changeImage(this)" href="#"> capybara                      </a> <div id="capybara_br"                   class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 11 </td> <td><a id="capybara-webkit"            onclick="changeImage(this)" href="#"> capybara-webkit               </a> <div id="capybara-webkit_br"            class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 12 </td> <td><a id="ccw"                        onclick="changeImage(this)" href="#"> ccw                           </a> <div id="ccw_br"                        class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 13 </td> <td><a id="celluloid"                  onclick="changeImage(this)" href="#"> celluloid                     </a> <div id="celluloid_br"                  class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 14 </td> <td><a id="celluloid-io"               onclick="changeImage(this)" href="#"> celluloid-io                  </a> <div id="celluloid-io_br"               class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 15 </td> <td><a id="chef"                       onclick="changeImage(this)" href="#"> chef                          </a> <div id="chef_br"                       class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 16 </td> <td><a id="closure_tree"               onclick="changeImage(this)" href="#"> closure_tree                  </a> <div id="closure_tree_br"               class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 17 </td> <td><a id="dcell"                      onclick="changeImage(this)" href="#"> dcell                         </a> <div id="dcell_br"                      class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 18 </td> <td><a id="devise_cas_authenticatable" onclick="changeImage(this)" href="#"> devise_cas_authenticatable    </a> <div id="devise_cas_authenticatable_br" class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 19 </td> <td><a id="diaspora"                   onclick="changeImage(this)" href="#"> diaspora                      </a> <div id="diaspora_br"                   class="hiddentext" style="display: none;"> develop            </div> </td> </tr>
+	<tr><td> 20 </td> <td><a id="druid"                      onclick="changeImage(this)" href="#"> druid                         </a> <div id="druid_br"                      class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 21 </td> <td><a id="factory_girl_rails"         onclick="changeImage(this)" href="#"> factory_girl_rails            </a> <div id="factory_girl_rails_br"         class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 22 </td> <td><a id="flink"                      onclick="changeImage(this)" href="#"> flink                         </a> <div id="flink_br"                      class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 23 </td> <td><a id="fluentd"                    onclick="changeImage(this)" href="#"> fluentd                       </a> <div id="fluentd_br"                    class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 24 </td> <td><a id="geoserver"                  onclick="changeImage(this)" href="#"> geoserver                     </a> <div id="geoserver_br"                  class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 25 </td> <td><a id="hapi-fhir"                  onclick="changeImage(this)" href="#"> hapi-fhir                     </a> <div id="hapi-fhir_br"                  class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 26 </td> <td><a id="jackrabbit-oak"             onclick="changeImage(this)" href="#"> jackrabbit-oak                </a> <div id="jackrabbit-oak_br"             class="hiddentext" style="display: none;"> trunk              </div> </td> </tr>
+	<tr><td> 27 </td> <td><a id="java-design-patterns"       onclick="changeImage(this)" href="#"> java-design-patterns          </a> <div id="java-design-patterns_br"       class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 28 </td> <td><a id="javaee7-samples"            onclick="changeImage(this)" href="#"> javaee7-samples               </a> <div id="javaee7-samples_br"            class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 29 </td> <td><a id="jobsworth"                  onclick="changeImage(this)" href="#"> jobsworth                     </a> <div id="jobsworth_br"                  class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 30 </td> <td><a id="jruby"                      onclick="changeImage(this)" href="#"> jruby                         </a> <div id="jruby_br"                      class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 31 </td> <td><a id="js-routes"                  onclick="changeImage(this)" href="#"> js-routes                     </a> <div id="js-routes_br"                  class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 32 </td> <td><a id="kaminari"                   onclick="changeImage(this)" href="#"> kaminari                      </a> <div id="kaminari_br"                   class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 33 </td> <td><a id="killbill"                   onclick="changeImage(this)" href="#"> killbill                      </a> <div id="killbill_br"                   class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 34 </td> <td><a id="librarian-puppet"           onclick="changeImage(this)" href="#"> librarian-puppet              </a> <div id="librarian-puppet_br"           class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 35 </td> <td><a id="LicenseFinder"              onclick="changeImage(this)" href="#"> LicenseFinder                 </a> <div id="LicenseFinder_br"              class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 36 </td> <td><a id="lograge"                    onclick="changeImage(this)" href="#"> lograge                       </a> <div id="lograge_br"                    class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 37 </td> <td><a id="moped"                      onclick="changeImage(this)" href="#"> moped                         </a> <div id="moped_br"                      class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 38 </td> <td><a id="open-build-service"         onclick="changeImage(this)" href="#"> open-build-service            </a> <div id="open-build-service_br"         class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 39 </td> <td><a id="openproject"                onclick="changeImage(this)" href="#"> openproject                   </a> <div id="openproject_br"                class="hiddentext" style="display: none;"> dev                </div> </td> </tr>
+	<tr><td> 40 </td> <td><a id="opentsdb"                   onclick="changeImage(this)" href="#"> opentsdb                      </a> <div id="opentsdb_br"                   class="hiddentext" style="display: none;"> next               </div> </td> </tr>
+	<tr><td> 41 </td> <td><a id="oryx"                       onclick="changeImage(this)" href="#"> oryx                          </a> <div id="oryx_br"                       class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 42 </td> <td><a id="paperclip"                  onclick="changeImage(this)" href="#"> paperclip                     </a> <div id="paperclip_br"                  class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 43 </td> <td><a id="presto"                     onclick="changeImage(this)" href="#"> presto                        </a> <div id="presto_br"                     class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 44 </td> <td><a id="promiscuous"                onclick="changeImage(this)" href="#"> promiscuous                   </a> <div id="promiscuous_br"                class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 45 </td> <td><a id="rails"                      onclick="changeImage(this)" href="#"> rails                         </a> <div id="rails_br"                      class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 46 </td> <td><a id="ransack"                    onclick="changeImage(this)" href="#"> ransack                       </a> <div id="ransack_br"                    class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 47 </td> <td><a id="redmine_git_hosting"        onclick="changeImage(this)" href="#"> redmine_git_hosting           </a> <div id="redmine_git_hosting_br"        class="hiddentext" style="display: none;"> devel              </div> </td> </tr>
+	<tr><td> 48 </td> <td><a id="rollbar-gem"                onclick="changeImage(this)" href="#"> rollbar-gem                   </a> <div id="rollbar-gem_br"                class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 49 </td> <td><a id="rspec-rails"                onclick="changeImage(this)" href="#"> rspec-rails                   </a> <div id="rspec-rails_br"                class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 50 </td> <td><a id="ruboto"                     onclick="changeImage(this)" href="#"> ruboto                        </a> <div id="ruboto_br"                     class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 51 </td> <td><a id="search_cop"                 onclick="changeImage(this)" href="#"> search_cop                    </a> <div id="search_cop_br"                 class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 52 </td> <td><a id="shuttle"                    onclick="changeImage(this)" href="#"> shuttle                       </a> <div id="shuttle_br"                    class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 53 </td> <td><a id="Singularity"                onclick="changeImage(this)" href="#"> Singularity                   </a> <div id="Singularity_br"                class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 54 </td> <td><a id="skylight-ruby"              onclick="changeImage(this)" href="#"> skylight-ruby                 </a> <div id="skylight-ruby_br"              class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 55 </td> <td><a id="slim"                       onclick="changeImage(this)" href="#"> slim                          </a> <div id="slim_br"                       class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 56 </td> <td><a id="structr"                    onclick="changeImage(this)" href="#"> structr                       </a> <div id="structr_br"                    class="hiddentext" style="display: none;"> develop            </div> </td> </tr>
+	<tr><td> 57 </td> <td><a id="thinking-sphinx"            onclick="changeImage(this)" href="#"> thinking-sphinx               </a> <div id="thinking-sphinx_br"            class="hiddentext" style="display: none;"> v1                 </div> </td> </tr>
+	<tr><td> 58 </td> <td><a id="titan"                      onclick="changeImage(this)" href="#"> titan                         </a> <div id="titan_br"                      class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 59 </td> <td><a id="torquebox"                  onclick="changeImage(this)" href="#"> torquebox                     </a> <div id="torquebox_br"                  class="hiddentext" style="display: none;"> torqbox            </div> </td> </tr>
+	<tr><td> 60 </td> <td><a id="transpec"                   onclick="changeImage(this)" href="#"> transpec                      </a> <div id="transpec_br"                   class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 61 </td> <td><a id="twitter-cldr-rb"            onclick="changeImage(this)" href="#"> twitter-cldr-rb               </a> <div id="twitter-cldr-rb_br"            class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 62 </td> <td><a id="uaa"                        onclick="changeImage(this)" href="#"> uaa                           </a> <div id="uaa_br"                        class="hiddentext" style="display: none;"> develop            </div> </td> </tr>
+	<tr><td> 63 </td> <td><a id="vanity"                     onclick="changeImage(this)" href="#"> vanity                        </a> <div id="vanity_br"                     class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 64 </td> <td><a id="wicked"                     onclick="changeImage(this)" href="#"> wicked                        </a> <div id="wicked_br"                     class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 65 </td> <td><a id="xtreemfs"                   onclick="changeImage(this)" href="#"> xtreemfs                      </a> <div id="xtreemfs_br"                   class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 66 </td> <td><a id="yaks"                       onclick="changeImage(this)" href="#"> yaks                          </a> <div id="yaks_br"                       class="hiddentext" style="display: none;"> master             </div> </td> </tr>
+	<tr><td> 67 </td> <td><a id="zanata-server"              onclick="changeImage(this)" href="#"> zanata-server                 </a> <div id="zanata-server_br"              class="hiddentext" style="display: none;"> integration/master </div> </td> </tr>
+</table>
+<!-- End .appendix -->
